@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+
+<modDesc descVersion="63">
+
+    <author>Copyright (C) Equipe Farm Centro Sul.</author>
+	
+	<contributors>
+       <contributor>PsyTec Modding</contributor>
+       <contributor>DennisK</contributor>
+    </contributors>
+	
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>Scania T 113-143 4/6x2 (DK edit)</en>
+        <de>Scania T 113-143 4/6x2 (DK edit)</de>
+        <nl>Scania T 113-143 4/6x2 (DK edit)</nl>
+    </title>
+
+    <description>
+        <en>Scania T DK edit</en>
+		<en>
+            <![CDATA[This mod is originaly built by Equipe Farm Centro Sul, changed by PsyTec Modding and later on completly rebuilt by DennisK
+]]>
+        </en>
+		<nl>
+            <![CDATA[Deze mod is oorspronkelijk gemaakt door Equipe Farm Centro Sul, Aangepast door PsyTec Modding en daarna volledig verbouwd door DennisK
+]]>
+        </nl>
+    </description>
+	
+	<l10n>
+	<text name="configuration_Rodoar">
+            <br>Rodoar</br>
+            <en>Wheel Air</en>
+        </text>
+	<text name="configuration_Calota">
+            <br>Calotas</br>
+            <en>Calotte</en>
+        </text>
+	<text name="configuration_DesignRoda">
+            <br>Acessórios nas Rodas</br>
+            <en>Wheel Acessories</en>
+        </text>
+	<text name="configuration_CabinDesign">
+            <br>Design da Cabine</br>
+            <en>Cabin Design</en>
+        </text>
+	<text name="configuration_Eixos">
+            <br>Configuração dos Eixos</br>
+            <en>Axle Configurations</en>
+        </text>
+	<text name="configuration_Pneus">
+            <br>Configuração dos Pneus</br>
+            <en>Tire Configurations</en>
+        </text>
+	<text name="configuration_Pneumatico">
+            <br>Sistema Pneumático</br>
+            <en>Pneumatic System</en>
+        </text>
+	<text name="configuration_Eixo">
+            <br>Simples</br>
+            <en>Simple</en>
+        </text>
+	<text name="configuration_Eixo2">
+            <br>Duplo</br>
+            <en>Double</en>
+        </text>
+
+	<text name="subir_eixo">
+            <br>Levantar Eixo</br>
+            <en>Up Axle</en>
+        </text>
+
+	<text name="baixar_eixo">
+            <br>Baixar Eixo</br>
+            <en>Low Axle</en>
+        </text> 
+	<text name="configuration_Def">
+            <br>Defletor</br>
+            <en>Deflector</en>
+        </text>
+	<text name="configuration_Air">
+            <br>Aerofólio</br>
+            <en>Spoiler</en>
+        </text>
+	</l10n>
+	
+	<!--
+	<l10n filenamePrefix="translations/l10n"/>
+	-->
+
+    <iconFilename>Shop.dds</iconFilename>
+	
+    <multiplayer supported="true" />
+    
+    <storeItems>
+        <storeItem xmlFilename="113.xml"/>
+    </storeItems>
+	
+	<!-- EXAMPLES TAKEN FROM FS19, NO LUA's AVAILABLE FOR FS22!!! -->
+	
+	<!--
+    <dependencies>
+        <dependency>FS22_DennisK</dependency>
+    </dependencies>
+	-->
+
+	<brands>
+        <brand name="ITALSPEED" title="Italspeed" image="Addons/Rodas/italspeed_logo.dds"/>
+        <brand name="ALCOA" title="Alcoa" image="Alcoa.png"/>
+        <brand name="SCANIA" title="Scania" image="brandScania.dds"/>
+        <brand name="DENNISK" title="Scania" image="brandDennisK.dds"/>
+	</brands>
+	
+	<!--
+	<brandcolors>
+        <color name="WINTERWOLF" value="0.056 0.11 0.184 0" />
+        <color name="WINTERWOLF1" value="0.023 0.043 0.075 0" />
+    </brandcolors>
+	-->
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKvehicles" title="DennisK" type="VEHICLE" img="Categories/CategoryVehicles.png" />
+
+	
+</modDesc>

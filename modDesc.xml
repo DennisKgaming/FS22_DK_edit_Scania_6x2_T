@@ -91,12 +91,12 @@
 	<l10n filenamePrefix="translations/l10n"/>
 	-->
 
-    <iconFilename>Shop.dds</iconFilename>
+    <iconFilename>icons/Shop.dds</iconFilename>
 	
     <multiplayer supported="true" />
     
     <storeItems>
-        <storeItem xmlFilename="113.xml"/>
+        <storeItem xmlFilename="xml/113.xml"/>
     </storeItems>
 	
 	<!-- EXAMPLES TAKEN FROM FS19, NO LUA's AVAILABLE FOR FS22!!! -->
@@ -108,10 +108,10 @@
 	-->
 
 	<brands>
-        <brand name="ITALSPEED" title="Italspeed" image="Addons/Rodas/italspeed_logo.dds"/>
-        <brand name="ALCOA" title="Alcoa" image="Alcoa.png"/>
-        <brand name="SCANIA" title="Scania" image="brandScania.dds"/>
-        <brand name="DENNISK" title="Scania" image="brandDennisK.dds"/>
+        <brand name="ITALSPEED" title="Italspeed" image="icons/italspeed_logo.dds"/>
+        <brand name="ALCOA" title="Alcoa" image="icons/Alcoa.png"/>
+        <brand name="SCANIA" title="Scania" image="icons/brandScania.dds"/>
+        <brand name="DENNISK" title="Scania" image="icons/brandDennisK.dds"/>
 	</brands>
 	
 	<!--

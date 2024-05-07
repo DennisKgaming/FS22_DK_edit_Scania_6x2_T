@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="scania113d.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="11" filename="$data/shared/default_normal.dds"/>
+    <File fileId="7" filename="textures/Blauw.png"/>
+    <File fileId="1" filename="textures/DefaultMaterial_BaseColor12.dds"/>
+    <File fileId="10" filename="textures/gen_dirt_1.dds"/>
+    <File fileId="14" filename="textures/specmain40_t.dds"/>
+    <File fileId="13" filename="textures/tyre_rear.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="05 - Default" materialId="4" specularColor="1 1 1" customShaderId="3">
+      <Texture fileId="7"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="07 - Default" materialId="5" specularColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="default" materialId="6" customShaderId="3">
+      <Texture fileId="13"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="lambert1" materialId="7" specularColor="0.827451 1 0">
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="Material.001" materialId="8" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="colorMask">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Material.001" materialId="9" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="colorMask">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Material.002" materialId="10" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 4"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 1 1 3"/>
+      <CustomParameter name="colorMat7" value="0 0 0 16"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="Material.002" materialId="11" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="colorMask">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 4"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Material.002" materialId="12" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="Material.002" materialId="13" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 4"/>
+      <CustomParameter name="colorMat1" value="1 1 1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="Material.004" materialId="14" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 4"/>
+      <CustomParameter name="colorMat1" value="0 0 0 16"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="TrilexChrome" materialId="169" diffuseColor="0.8 0.8 0.8 1" specularColor="1 1 1">
+    </Material>
+    <Material name="TrilexInnerrim" materialId="168" diffuseColor="0 0.0431373 0.184314 1" specularColor="1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="WheelSet.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="Rims" nodeId="46">
+        <TransformGroup name="DennisK_01" visibility="false" nodeId="47">
+          <TransformGroup name="Front" nodeId="48">
+            <TransformGroup name="SuperSingle" nodeId="49">
+              <TransformGroup name="Left" nodeId="50">
+                <Shape shapeId="1" name="CenterRim" nodeId="51" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="2" name="InnerRim" translation="-0.0665099 0 0" nodeId="52" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="OuterRim" translation="-0.128 0 0" scale="1 1.1 1.1" nodeId="53" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="04_WheelNuts_F_SS" translation="-0.018 0 0" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="04_Hub_F_SS" nodeId="55" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="Right" rotation="0 180 0" nodeId="56">
+                <Shape shapeId="1" name="CenterRim" nodeId="57" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="2" name="InnerRim" translation="-0.0665099 0 0" nodeId="58" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="OuterRim" translation="-0.128 0 0" scale="1 1.1 1.1" nodeId="59" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="04_Hub_F" nodeId="60" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="04_WheelNuts_F_SS" translation="-0.018 0 0" nodeId="61" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="StandardSize" nodeId="62">
+              <TransformGroup name="Left" nodeId="63">
+                <Shape shapeId="2" name="InnerRim" translation="-0.0665099 0 0" nodeId="64" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="1" name="OuterRim" nodeId="65" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="04_WheelNuts_F_SS" translation="-0.018 0 0" nodeId="66" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="04_Hub_F" nodeId="67" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="Right" rotation="0 180 0" nodeId="68">
+                <Shape shapeId="2" name="InnerRim" translation="-0.0665099 0 0" nodeId="69" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="1" name="OuterRim" nodeId="70" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="04_WheelNuts_F_SS" translation="-0.018 0 0" nodeId="71" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="04_Hub_F_SS" nodeId="72" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Rear" scale="1 1.1 1.1" nodeId="73">
+            <TransformGroup name="DriveAxle" nodeId="74">
+              <TransformGroup name="Left" nodeId="75">
+                <Shape shapeId="3" name="OuterRim" nodeId="76" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="InnerRim" translation="-0.009 0 0" nodeId="77" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="04_WheelNuts" nodeId="78" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="8" name="04_DriveHub_DriveAxle" nodeId="79" materialIds="7" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+              </TransformGroup>
+              <TransformGroup name="Right" rotation="0 180 0" nodeId="80">
+                <Shape shapeId="3" name="OuterRim" nodeId="81" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="InnerRim" translation="-0.009 0 0" nodeId="82" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="04_WheelNuts" nodeId="83" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="8" name="04_DriveHub_DriveAxle" nodeId="84" materialIds="7" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="LiftAxle" nodeId="85">
+              <TransformGroup name="Left" nodeId="86">
+                <Shape shapeId="3" name="OuterRim" nodeId="87" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="InnerRim" translation="-0.009 0 0" nodeId="88" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="04_WheelNuts" nodeId="89" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="9" name="04_Hub_LiftableAxle" nodeId="90" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="Right" rotation="0 180 0" nodeId="91">
+                <Shape shapeId="3" name="OuterRim" nodeId="92" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="InnerRim" translation="-0.009 0 0" nodeId="93" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="04_WheelNuts" nodeId="94" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="9" name="04_Hub_LiftableAxle" nodeId="95" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="01_Standard01" visibility="false" nodeId="96">
+          <TransformGroup name="Front" nodeId="97">
+            <Shape shapeId="10" name="OuterRim_L" translation="0.186668 -1.9e-05 0.000442" nodeId="98" materialIds="10" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="Air_L" translation="0.102102 0.256782 0.000204" nodeId="99" materialIds="10" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="10" name="OuterRim_R" translation="-0.217 -1.9e-05 0.000441965" rotation="0 -180 0" nodeId="100" materialIds="10" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="Air_R" translation="-0.135098 0.256782 0.000204007" rotation="0 -180 0" nodeId="101" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="Rear" nodeId="102">
+            <Shape shapeId="12" name="Rim" translation="0.010465 0.0030711 -0.00173552" rotation="90 -0 0" nodeId="103" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="02_Trilex" visibility="false" nodeId="104">
+          <TransformGroup name="Front" nodeId="105">
+            <TransformGroup name="Left" nodeId="106">
+              <Shape shapeId="13" name="Rim_L" translation="0.103492 1.19778e-10 -0.00274021" rotation="90 -0 0" scale="0.994 1 1" nodeId="107" materialIds="13" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" rotation="0 180 0" nodeId="108">
+              <Shape shapeId="13" name="Rim_L" translation="0.0993488 1.19778e-10 -0.00274021" rotation="90 -0 0" scale="0.994 1 1" nodeId="109" materialIds="13" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Rear" nodeId="110">
+            <TransformGroup name="Left" nodeId="111">
+              <Shape shapeId="14" name="Rim" translation="0.272734 0 0" rotation="90 0 0" scale="1.204 1.037 1.037" nodeId="112" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" rotation="0 180 0" nodeId="113">
+              <Shape shapeId="14" name="Rim" translation="0.273 0 0" rotation="90 -0 0" scale="1.204 1.037 1.037" nodeId="114" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="03_Scania" visibility="false" nodeId="115">
+          <TransformGroup name="Front" nodeId="116">
+            <Shape shapeId="15" name="Rim" translation="0.096904 0.000112 -0.001553" nodeId="117" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="Rear" nodeId="118">
+            <Shape shapeId="16" name="Hub" translation="0.0863545 0.00308543 -0.00177956" rotation="90 -0 0" nodeId="119" materialIds="14" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="17" name="Nuts" translation="0.0316336 0.00195809 -0.00374421" rotation="90 -0 0" nodeId="120" materialIds="14" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="12" name="Rim" translation="0.010465 0.0030711 -0.00173552" rotation="90 -0 0" nodeId="121" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="TrilexBlueChrome" visibility="false" nodeId="269">
+          <TransformGroup name="Front" nodeId="271">
+            <TransformGroup name="Left" nodeId="281">
+              <TransformGroup name="CenterHub" nodeId="273">
+                <Shape shapeId="18" name="FR_HubBolt" rotation="90 -0 0" nodeId="220" materialIds="168"/>
+                <Shape shapeId="19" name="FR_HubBolt.001" rotation="90 -0 0" nodeId="221" materialIds="168"/>
+                <Shape shapeId="20" name="FR_HubBolt.002" rotation="90 -0 0" nodeId="222" materialIds="168"/>
+                <Shape shapeId="21" name="FR_HubBolt.003" rotation="90 -0 0" nodeId="223" materialIds="168"/>
+                <Shape shapeId="22" name="FR_HubBolt.004" rotation="90 -0 0" nodeId="224" materialIds="168"/>
+                <Shape shapeId="23" name="FR_HubCap" rotation="90 -0 0" nodeId="225" materialIds="169"/>
+                <Shape shapeId="24" name="FR_HubPlate" rotation="90 -0 0" nodeId="226" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="FrontRim" nodeId="274">
+                <Shape shapeId="25" name="FR_IR_Bolt" rotation="90 -0 0" nodeId="227" materialIds="169"/>
+                <Shape shapeId="26" name="FR_IR_Bolt.001" rotation="90 -0 0" nodeId="228" materialIds="169"/>
+                <Shape shapeId="27" name="FR_IR_Bolt.002" rotation="90 -0 0" nodeId="229" materialIds="169"/>
+                <Shape shapeId="28" name="FR_IR_Bolt.003" rotation="90 -0 0" nodeId="230" materialIds="169"/>
+                <Shape shapeId="29" name="FR_IR_Bolt.004" rotation="90 -0 0" nodeId="231" materialIds="169"/>
+                <Shape shapeId="30" name="FR_InnerRim" rotation="90 -0 0" nodeId="232" materialIds="168"/>
+                <Shape shapeId="31" name="FR_OuterRim" rotation="90 -0 0" nodeId="233" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="ConnectorPlates" nodeId="275">
+                <Shape shapeId="32" name="FR_PlateBolt.004" rotation="90 -0 0" nodeId="243" materialIds="168"/>
+                <Shape shapeId="33" name="FR_PlateBolt.003" rotation="90 -0 0" nodeId="242" materialIds="168"/>
+                <Shape shapeId="34" name="FR_PlateBolt.002" rotation="90 -0 0" nodeId="241" materialIds="168"/>
+                <Shape shapeId="35" name="FR_PlateBolt.001" rotation="90 -0 0" nodeId="240" materialIds="168"/>
+                <Shape shapeId="36" name="FR_PlateBolt" rotation="90 -0 0" nodeId="239" materialIds="168"/>
+                <Shape shapeId="37" name="FR_Plate.009" rotation="90 -0 0" nodeId="238" materialIds="169"/>
+                <Shape shapeId="38" name="FR_Plate.004" rotation="90 -0 0" nodeId="237" materialIds="169"/>
+                <Shape shapeId="39" name="FR_Plate.003" rotation="90 -0 0" nodeId="236" materialIds="169"/>
+                <Shape shapeId="40" name="FR_Plate.002" rotation="90 -0 0" nodeId="235" materialIds="169"/>
+                <Shape shapeId="41" name="FR_Plate.001" rotation="90 -0 0" nodeId="234" materialIds="169"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Right" rotation="0 180 0" nodeId="282">
+              <TransformGroup name="CenterHub" nodeId="283">
+                <Shape shapeId="18" name="FR_HubBolt" rotation="90 -0 0" nodeId="284" materialIds="168"/>
+                <Shape shapeId="19" name="FR_HubBolt.001" rotation="90 -0 0" nodeId="285" materialIds="168"/>
+                <Shape shapeId="20" name="FR_HubBolt.002" rotation="90 -0 0" nodeId="286" materialIds="168"/>
+                <Shape shapeId="21" name="FR_HubBolt.003" rotation="90 -0 0" nodeId="287" materialIds="168"/>
+                <Shape shapeId="22" name="FR_HubBolt.004" rotation="90 -0 0" nodeId="288" materialIds="168"/>
+                <Shape shapeId="23" name="FR_HubCap" rotation="90 -0 0" nodeId="289" materialIds="169"/>
+                <Shape shapeId="24" name="FR_HubPlate" rotation="90 -0 0" nodeId="290" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="FrontRim" nodeId="291">
+                <Shape shapeId="25" name="FR_IR_Bolt" rotation="90 -0 0" nodeId="292" materialIds="169"/>
+                <Shape shapeId="26" name="FR_IR_Bolt.001" rotation="90 -0 0" nodeId="293" materialIds="169"/>
+                <Shape shapeId="27" name="FR_IR_Bolt.002" rotation="90 -0 0" nodeId="294" materialIds="169"/>
+                <Shape shapeId="28" name="FR_IR_Bolt.003" rotation="90 -0 0" nodeId="295" materialIds="169"/>
+                <Shape shapeId="29" name="FR_IR_Bolt.004" rotation="90 -0 0" nodeId="296" materialIds="169"/>
+                <Shape shapeId="30" name="FR_InnerRim" rotation="90 -0 0" nodeId="297" materialIds="168"/>
+                <Shape shapeId="31" name="FR_OuterRim" rotation="90 -0 0" nodeId="298" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="ConnectorPlates" nodeId="299">
+                <Shape shapeId="32" name="FR_PlateBolt.004" rotation="90 -0 0" nodeId="300" materialIds="168"/>
+                <Shape shapeId="33" name="FR_PlateBolt.003" rotation="90 -0 0" nodeId="301" materialIds="168"/>
+                <Shape shapeId="34" name="FR_PlateBolt.002" rotation="90 -0 0" nodeId="302" materialIds="168"/>
+                <Shape shapeId="35" name="FR_PlateBolt.001" rotation="90 -0 0" nodeId="303" materialIds="168"/>
+                <Shape shapeId="36" name="FR_PlateBolt" rotation="90 -0 0" nodeId="304" materialIds="168"/>
+                <Shape shapeId="37" name="FR_Plate.009" rotation="90 -0 0" nodeId="305" materialIds="169"/>
+                <Shape shapeId="38" name="FR_Plate.004" rotation="90 -0 0" nodeId="306" materialIds="169"/>
+                <Shape shapeId="39" name="FR_Plate.003" rotation="90 -0 0" nodeId="307" materialIds="169"/>
+                <Shape shapeId="40" name="FR_Plate.002" rotation="90 -0 0" nodeId="308" materialIds="169"/>
+                <Shape shapeId="41" name="FR_Plate.001" rotation="90 -0 0" nodeId="309" materialIds="169"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Rear" nodeId="272">
+            <TransformGroup name="Left" nodeId="280">
+              <TransformGroup name="CenterHub" nodeId="277">
+                <Shape shapeId="42" name="RR_CenterHub" rotation="90 -0 0" nodeId="245" materialIds="169"/>
+                <Shape shapeId="43" name="RR_HubBolt" rotation="90 -0 0" nodeId="246" materialIds="168"/>
+                <Shape shapeId="44" name="RR_HubBolt.001" rotation="90 -0 0" nodeId="247" materialIds="168"/>
+                <Shape shapeId="45" name="RR_HubBolt.002" rotation="90 -0 0" nodeId="248" materialIds="168"/>
+                <Shape shapeId="46" name="RR_HubBolt.003" rotation="90 -0 0" nodeId="249" materialIds="168"/>
+                <Shape shapeId="47" name="RR_HubBolt.004" rotation="90 -0 0" nodeId="250" materialIds="168"/>
+                <Shape shapeId="48" name="RR_HubBolt.005" rotation="90 -0 0" nodeId="251" materialIds="168"/>
+              </TransformGroup>
+              <TransformGroup name="RearRim" nodeId="278">
+                <Shape shapeId="49" name="RR_IR_Bolt" rotation="90 -0 0" nodeId="252" materialIds="169"/>
+                <Shape shapeId="50" name="RR_IR_Bolt.001" rotation="90 -0 0" nodeId="253" materialIds="169"/>
+                <Shape shapeId="51" name="RR_IR_Bolt.002" rotation="90 -0 0" nodeId="254" materialIds="169"/>
+                <Shape shapeId="52" name="RR_IR_Bolt.003" rotation="90 -0 0" nodeId="255" materialIds="169"/>
+                <Shape shapeId="53" name="RR_IR_Bolt.004" rotation="90 -0 0" nodeId="256" materialIds="169"/>
+                <Shape shapeId="54" name="RR_InnerRim" rotation="90 -0 0" nodeId="257" materialIds="168"/>
+                <Shape shapeId="55" name="RR_OuterRim" rotation="90 -0 0" nodeId="258" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="ConnectorPlate" nodeId="279">
+                <Shape shapeId="56" name="RR_Plate" rotation="90 -0 0" nodeId="259" materialIds="169"/>
+                <Shape shapeId="57" name="RR_Plate.001" rotation="90 -0 0" nodeId="260" materialIds="169"/>
+                <Shape shapeId="58" name="RR_Plate.002" rotation="90 -0 0" nodeId="261" materialIds="169"/>
+                <Shape shapeId="59" name="RR_Plate.003" rotation="90 -0 0" nodeId="262" materialIds="169"/>
+                <Shape shapeId="60" name="RR_Plate.004" rotation="90 -0 0" nodeId="263" materialIds="169"/>
+                <Shape shapeId="61" name="RR_PlateBolt" rotation="90 -0 0" nodeId="264" materialIds="168"/>
+                <Shape shapeId="62" name="RR_PlateBolt.001" rotation="90 -0 0" nodeId="265" materialIds="168"/>
+                <Shape shapeId="63" name="RR_PlateBolt.002" rotation="90 -0 0" nodeId="266" materialIds="168"/>
+                <Shape shapeId="64" name="RR_PlateBolt.003" rotation="90 -0 0" nodeId="267" materialIds="168"/>
+                <Shape shapeId="65" name="RR_PlateBolt.004" rotation="90 -0 0" nodeId="268" materialIds="168"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Right" translation="0.0244748 0 0" rotation="0 180 0" nodeId="310">
+              <TransformGroup name="CenterHub" nodeId="311">
+                <Shape shapeId="42" name="RR_CenterHub" rotation="90 -0 0" nodeId="312" materialIds="169"/>
+                <Shape shapeId="43" name="RR_HubBolt" rotation="90 -0 0" nodeId="313" materialIds="168"/>
+                <Shape shapeId="44" name="RR_HubBolt.001" rotation="90 -0 0" nodeId="314" materialIds="168"/>
+                <Shape shapeId="45" name="RR_HubBolt.002" rotation="90 -0 0" nodeId="315" materialIds="168"/>
+                <Shape shapeId="46" name="RR_HubBolt.003" rotation="90 -0 0" nodeId="316" materialIds="168"/>
+                <Shape shapeId="47" name="RR_HubBolt.004" rotation="90 -0 0" nodeId="317" materialIds="168"/>
+                <Shape shapeId="48" name="RR_HubBolt.005" rotation="90 -0 0" nodeId="318" materialIds="168"/>
+              </TransformGroup>
+              <TransformGroup name="RearRim" nodeId="319">
+                <Shape shapeId="49" name="RR_IR_Bolt" rotation="90 -0 0" nodeId="320" materialIds="169"/>
+                <Shape shapeId="50" name="RR_IR_Bolt.001" rotation="90 -0 0" nodeId="321" materialIds="169"/>
+                <Shape shapeId="51" name="RR_IR_Bolt.002" rotation="90 -0 0" nodeId="322" materialIds="169"/>
+                <Shape shapeId="52" name="RR_IR_Bolt.003" rotation="90 -0 0" nodeId="323" materialIds="169"/>
+                <Shape shapeId="53" name="RR_IR_Bolt.004" rotation="90 -0 0" nodeId="324" materialIds="169"/>
+                <Shape shapeId="54" name="RR_InnerRim" rotation="90 -0 0" nodeId="325" materialIds="168"/>
+                <Shape shapeId="55" name="RR_OuterRim" rotation="90 -0 0" nodeId="326" materialIds="169"/>
+              </TransformGroup>
+              <TransformGroup name="ConnectorPlate" nodeId="327">
+                <Shape shapeId="56" name="RR_Plate" rotation="90 -0 0" nodeId="328" materialIds="169"/>
+                <Shape shapeId="57" name="RR_Plate.001" rotation="90 -0 0" nodeId="329" materialIds="169"/>
+                <Shape shapeId="58" name="RR_Plate.002" rotation="90 -0 0" nodeId="330" materialIds="169"/>
+                <Shape shapeId="59" name="RR_Plate.003" rotation="90 -0 0" nodeId="331" materialIds="169"/>
+                <Shape shapeId="60" name="RR_Plate.004" rotation="90 -0 0" nodeId="332" materialIds="169"/>
+                <Shape shapeId="61" name="RR_PlateBolt" rotation="90 -0 0" nodeId="333" materialIds="168"/>
+                <Shape shapeId="62" name="RR_PlateBolt.001" rotation="90 -0 0" nodeId="334" materialIds="168"/>
+                <Shape shapeId="63" name="RR_PlateBolt.002" rotation="90 -0 0" nodeId="335" materialIds="168"/>
+                <Shape shapeId="64" name="RR_PlateBolt.003" rotation="90 -0 0" nodeId="336" materialIds="168"/>
+                <Shape shapeId="65" name="RR_PlateBolt.004" rotation="90 -0 0" nodeId="337" materialIds="168"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Tires" nodeId="122">
+        <TransformGroup name="Ventures315" visibility="false" nodeId="123">
+          <TransformGroup name="Front" nodeId="124">
+            <Shape shapeId="66" name="Single" nodeId="125" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="Rear" visibility="false" nodeId="126"/>
+        </TransformGroup>
+        <TransformGroup name="NoBrand_M+S" visibility="false" nodeId="127">
+          <TransformGroup name="Front" nodeId="128">
+            <TransformGroup name="Left" nodeId="129">
+              <Shape shapeId="67" name="Tyre" rotation="90 -0 0" scale="1 0.97 0.97" nodeId="130" materialIds="13" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" rotation="0 180 0" nodeId="131">
+              <Shape shapeId="67" name="Tyre" rotation="90 -0 0" scale="1 0.97 0.97" nodeId="132" materialIds="13" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Rear" translation="0.233604 0 0" nodeId="133">
+            <TransformGroup name="Left" translation="0.224085 0 0" scale="1.116 1 1" nodeId="134">
+              <Shape shapeId="68" name="Tyre" translation="0.027 0 0" scale="1.025 1 1" nodeId="135" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" rotation="0 180 0" scale="1.116 1 1" nodeId="136">
+              <Shape shapeId="68" name="Tyre" translation="0.224 0 0" scale="1.025 1 1" nodeId="137" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="GoodYearMarathonLHS2Marked" visibility="false" nodeId="138">
+          <TransformGroup name="Front" nodeId="139">
+            <TransformGroup name="Left" nodeId="140">
+              <Shape shapeId="69" name="385_80_SS" translation="0.0498661 0 0" scale="1.25 1 1" nodeId="141" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="69" name="315_80" translation="0.00538426 0 0" nodeId="142" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" nodeId="143">
+              <Shape shapeId="69" name="385_80_SS" translation="0.0498661 0 0" rotation="0 180 0" scale="1.25 1 1" nodeId="144" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="69" name="315_80" translation="0.0974505 0 -2.99991e-08" rotation="0 180 0" nodeId="145" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Rear" nodeId="146">
+            <TransformGroup name="Left" nodeId="147">
+              <Shape shapeId="70" name="Tyre315_80_Dual" nodeId="148" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="Right" translation="0.00417171 0 -3.64702e-10" rotation="0 180 0" nodeId="149">
+              <Shape shapeId="70" name="Tyre315_80_Dual" nodeId="150" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Hubs" nodeId="151">
+        <Shape shapeId="71" name="01_Hub_F" translation="0.142945 0 0" visibility="false" nodeId="152" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="72" name="01_Hub_R" translation="0.0863545 0.00308543 -0.00177956" rotation="90 -0 0" visibility="false" nodeId="153" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="03_HubStandard_F" visibility="false" nodeId="154">
+          <Shape shapeId="73" name="Hub1" translation="16.8 0 0" nodeId="155" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="74" name="Hub" translation="16.8 0 0" nodeId="156" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="WheelNuts" visibility="false" nodeId="157">
+        <Shape shapeId="75" name="01_WheelNuts_F" translation="0.203 0 0" visibility="false" nodeId="158" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="76" name="01_WheelNuts_R" translation="0.0316336 0.00195809 -0.00374421" rotation="90 -0 0" visibility="false" nodeId="159" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="77" name="03_WheelNuts_F" translation="18.26 0 0.01" visibility="false" nodeId="160" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="04_WheelNuts_F" translation="-0.018 0 0" visibility="false" nodeId="161" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="Accessoiries" visibility="false" nodeId="162">
+        <Shape shapeId="78" name="ScaniaRing" translation="0.17046 0.00184825 0.0249861" nodeId="163" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <Light name="light" rotation="-40 0 -30" nodeId="164" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" range="500"/>
+      <TransformGroup name="transform" nodeId="165"/>
+      <Camera name="Camera" translation="-0.0889274 1.19428 -2.68224" rotation="153.33 4.27746 180" nodeId="219" fov="50" nearClip="0.1" farClip="100" orthographicHeight="1"/>
+  </Scene>
+
+</i3D>

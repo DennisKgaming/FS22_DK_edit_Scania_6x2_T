@@ -6,72 +6,38 @@
   </Asset>
 
   <Files>
-    <File fileId="133" filename="$data/shaders/mirrorShader.xml"/>
+    <File fileId="131" filename="$data/shaders/mirrorShader.xml"/>
     <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
-    <File fileId="109" filename="$data/shared/assets/lights/hella/hellaWorkingLightRound_02_normal.dds"/>
-    <File fileId="153" filename="$data/shared/assets/lights/lizard/sideMarker05_normal.png"/>
-    <File fileId="154" filename="$data/shared/assets/lights/lizard/sideMarker05_vmask.png"/>
-    <File fileId="98" filename="$data/shared/assets/lights/lizard/sideMarker07_normal.png"/>
-    <File fileId="99" filename="$data/shared/assets/lights/lizard/sideMarker07_vmask.png"/>
-    <File fileId="104" filename="$data/shared/clearGlass_diffuse.dds"/>
-    <File fileId="69" filename="$data/shared/clearPlastic_diffuse.dds"/>
-    <File fileId="169" filename="$data/shared/connectionHoses/airConnector_normal.png"/>
-    <File fileId="168" filename="$data/shared/connectionHoses/connectors_normal.dds"/>
-    <File fileId="102" filename="$data/shared/default_normal.dds"/>
-    <File fileId="103" filename="$data/shared/default_specular.dds"/>
-    <File fileId="158" filename="$data/shared/window_diffuse.dds"/>
-    <File fileId="111" filename="../textures/BullbarDaf/Witcreme.png"/>
-    <File fileId="107" filename="../textures/HellaRalley3000/alpha.dds"/>
-    <File fileId="106" filename="../textures/HellaRalley3000/cubemap.dds"/>
-    <File fileId="108" filename="../textures/HellaRalley3000/glass.dds"/>
-    <File fileId="105" filename="../textures/HellaRalley3000/hella.dds"/>
-    <File fileId="83" filename="../textures/HighPipe/texture0.dds"/>
-    <File fileId="148" filename="../textures/HeaderLightGlass/clearPlastic_diffuse.png"/>
-    <File fileId="149" filename="../textures/HeaderLightGlass/vehicleShader.xml"/>
-    <File fileId="118" filename="../textures/ScaniaLights/capalantSpec.dds"/>
-    <File fileId="32" filename="../textures/ScaniaLights/capinhafarolsSpec.dds"/>
-    <File fileId="34" filename="../textures/ScaniaLights/faroisspec.dds"/>
-    <File fileId="33" filename="../textures/ScaniaLights/vidros.dds"/>
-    <File fileId="126" filename="../textures/ScaniaLights/Toplight.dds"/>
-    <File fileId="125" filename="../textures/ScaniaLights/specular1.dds"/>
-    <File fileId="70" filename="../shared/assets/lights/lizard/frontLightRectangle_02_normal.png"/>
-    <File fileId="71" filename="../shared/assets/lights/lizard/frontLightRectangle_02_specular.png"/>
-    <File fileId="123" filename="../shared/assets/lights/lizard/rear5ChamberLight_02_normal.dds"/>
-    <File fileId="124" filename="../shared/assets/lights/lizard/rear5ChamberLight_02_specular.dds"/>
-    <File fileId="120" filename="../shared/assets/lights/lizard/rearLEDLight_01_normal.dds"/>
-    <File fileId="121" filename="../shared/assets/lights/lizard/rearLEDLight_01_specular.dds"/>
-    <File fileId="67" filename="../shared/assets/lights/lizard/rearLightCircleRed_02_normal.dds"/>
-    <File fileId="68" filename="../shared/assets/lights/lizard/rearLightCircleRed_02_specular.dds"/>
-    <File fileId="73" filename="../shared/assets/lights/lizard/sideMarker_04_normal.dds"/>
-    <File fileId="74" filename="../shared/assets/lights/lizard/sideMarker_04_specular.dds"/>
-    <File fileId="155" filename="../shared/assets/lights/lizard/workingLightCircle_02_normal.dds"/>
-    <File fileId="156" filename="../shared/assets/lights/lizard/workingLightCircle_02_specular.dds"/>
-    <File fileId="122" filename="../shared/clearPlastic_diffuse.dds"/>
-    <File fileId="119" filename="../textures/rearLight10/clearPlastic_diffuse.dds"/>
-    <File fileId="140" filename="../textures/sideMarker05Red/sideMarker05_normal.dds"/>
-    <File fileId="141" filename="../textures/sideMarker05Red/sideMarker05_vmask.dds"/>
-    <File fileId="160" filename="../textures/MirrorLights/chrom.dds"/>
-    <File fileId="159" filename="../textures/MirrorLights/lights.dds"/>
-    <File fileId="88" filename="../textures/Mudflaps/spatlappen.dds"/>
-    <File fileId="146" filename="../textures/RearLightSupport/Schrauben_diffuse.dds"/>
-    <File fileId="143" filename="../textures/RearLightSupport/motor.dds"/>
-    <File fileId="147" filename="../textures/RearLightSupport/specular.dds"/>
-    <File fileId="145" filename="../textures/RearLightSupport/shared/Specular.dds"/>
-    <File fileId="144" filename="../textures/RearLightSupport/shared/default_normal.dds"/>
-    <File fileId="110" filename="../textures/RockGuard/Witcreme.png"/>
-    <File fileId="173" filename="../textures/Rodas/Calota_Spec.dds" colorProfile="sRGB"/>
-    <File fileId="18" filename="../textures/Rodas/Rodoar.dds" colorProfile="sRGB"/>
-    <File fileId="171" filename="../textures/RoundedFuelTanks/gen_dirt_1.dds"/>
-    <File fileId="157" filename="../textures/ScandinavianDayLight/Arbeitscheinwerfer.dds"/>
-    <File fileId="115" filename="../textures/Toplight.dds"/>
-    <File fileId="116" filename="../textures/default_normal.dds"/>
-    <File fileId="117" filename="../textures/gen_dirt_1_2k.dds"/>
-    <File fileId="20" filename="../textures/specular1.dds"/>
-    <File fileId="87" filename="../textures/1.dds"/>
-    <File fileId="131" filename="../textures/113H/Cabine.dds"/>
-    <File fileId="130" filename="../textures/113H/CapoSpec.dds"/>
-    <File fileId="138" filename="../textures/113H/Chineleira.dds"/>
-    <File fileId="137" filename="../textures/113H/Escadinha.dds"/>
+    <File fileId="108" filename="$data/shared/assets/lights/hella/hellaWorkingLightRound_02_normal.dds"/>
+    <File fileId="151" filename="$data/shared/assets/lights/lizard/sideMarker05_normal.png"/>
+    <File fileId="152" filename="$data/shared/assets/lights/lizard/sideMarker05_vmask.png"/>
+    <File fileId="97" filename="$data/shared/assets/lights/lizard/sideMarker07_normal.png"/>
+    <File fileId="98" filename="$data/shared/assets/lights/lizard/sideMarker07_vmask.png"/>
+    <File fileId="103" filename="$data/shared/clearGlass_diffuse.dds"/>
+    <File fileId="68" filename="$data/shared/clearPlastic_diffuse.dds"/>
+    <File fileId="167" filename="$data/shared/connectionHoses/airConnector_normal.png"/>
+    <File fileId="166" filename="$data/shared/connectionHoses/connectors_normal.dds"/>
+    <File fileId="101" filename="$data/shared/default_normal.dds"/>
+    <File fileId="102" filename="$data/shared/default_specular.dds"/>
+    <File fileId="156" filename="$data/shared/window_diffuse.dds"/>
+    <File fileId="69" filename="../shared/assets/lights/lizard/frontLightRectangle_02_normal.png"/>
+    <File fileId="70" filename="../shared/assets/lights/lizard/frontLightRectangle_02_specular.png"/>
+    <File fileId="121" filename="../shared/assets/lights/lizard/rear5ChamberLight_02_normal.dds"/>
+    <File fileId="122" filename="../shared/assets/lights/lizard/rear5ChamberLight_02_specular.dds"/>
+    <File fileId="118" filename="../shared/assets/lights/lizard/rearLEDLight_01_normal.dds"/>
+    <File fileId="119" filename="../shared/assets/lights/lizard/rearLEDLight_01_specular.dds"/>
+    <File fileId="66" filename="../shared/assets/lights/lizard/rearLightCircleRed_02_normal.dds"/>
+    <File fileId="67" filename="../shared/assets/lights/lizard/rearLightCircleRed_02_specular.dds"/>
+    <File fileId="72" filename="../shared/assets/lights/lizard/sideMarker_04_normal.dds"/>
+    <File fileId="73" filename="../shared/assets/lights/lizard/sideMarker_04_specular.dds"/>
+    <File fileId="153" filename="../shared/assets/lights/lizard/workingLightCircle_02_normal.dds"/>
+    <File fileId="154" filename="../shared/assets/lights/lizard/workingLightCircle_02_specular.dds"/>
+    <File fileId="120" filename="../shared/clearPlastic_diffuse.dds"/>
+    <File fileId="86" filename="../textures/1.dds"/>
+    <File fileId="129" filename="../textures/113H/Cabine.dds"/>
+    <File fileId="128" filename="../textures/113H/CapoSpec.dds"/>
+    <File fileId="136" filename="../textures/113H/Chineleira.dds"/>
+    <File fileId="135" filename="../textures/113H/Escadinha.dds"/>
     <File fileId="62" filename="../textures/113H/Red.dds"/>
     <File fileId="21" filename="../textures/113H/Suporte_ParalamasSpec.dds"/>
     <File fileId="35" filename="../textures/113H/baseSpec.dds"/>
@@ -86,18 +52,18 @@
     <File fileId="10" filename="../textures/113H/carpaint2_specular.dds"/>
     <File fileId="3" filename="../textures/113H/chassi4x2Spec.dds"/>
     <File fileId="13" filename="../textures/113H/chassiSpec.dds"/>
-    <File fileId="139" filename="../textures/113H/def.dds"/>
-    <File fileId="142" filename="../textures/113H/defletor.dds"/>
-    <File fileId="172" filename="../textures/113H/eixodianteiroSpec.dds"/>
+    <File fileId="137" filename="../textures/113H/def.dds"/>
+    <File fileId="140" filename="../textures/113H/defletor.dds"/>
+    <File fileId="173" filename="../textures/113H/eixodianteiroSpec.dds"/>
     <File fileId="8" filename="../textures/113H/eixosSpec.dds"/>
     <File fileId="29" filename="../textures/113H/esadinhaportaSpec.dds"/>
     <File fileId="30" filename="../textures/113H/escadinha2ASpec.dds"/>
     <File fileId="47" filename="../textures/113H/escadinha3Sec.dds"/>
-    <File fileId="127" filename="../textures/113H/faixa.dds"/>
-    <File fileId="165" filename="../textures/113H/faixa2.dds"/>
-    <File fileId="166" filename="../textures/113H/faixa3.dds"/>
-    <File fileId="167" filename="../textures/113H/faixa4.dds"/>
-    <File fileId="128" filename="../textures/113H/faixaSpec.dds"/>
+    <File fileId="125" filename="../textures/113H/faixa.dds"/>
+    <File fileId="163" filename="../textures/113H/faixa2.dds"/>
+    <File fileId="164" filename="../textures/113H/faixa3.dds"/>
+    <File fileId="165" filename="../textures/113H/faixa4.dds"/>
+    <File fileId="126" filename="../textures/113H/faixaSpec.dds"/>
     <File fileId="49" filename="../textures/113H/faroisspec.dds"/>
     <File fileId="38" filename="../textures/113H/filtro.dds"/>
     <File fileId="45" filename="../textures/113H/filtroSpec.dds"/>
@@ -105,112 +71,145 @@
     <File fileId="15" filename="../textures/113H/fundoparlamaSpec.dds"/>
     <File fileId="22" filename="../textures/113H/gradinhaSpec.dds"/>
     <File fileId="39" filename="../textures/113H/interc2Spec.dds"/>
-    <File fileId="134" filename="../textures/113H/interclima.dds"/>
+    <File fileId="132" filename="../textures/113H/interclima.dds"/>
     <File fileId="44" filename="../textures/113H/macanetasSpec.dds"/>
     <File fileId="57" filename="../textures/113H/motor2Spec.dds"/>
     <File fileId="53" filename="../textures/113H/motor3Spec.dds"/>
     <File fileId="58" filename="../textures/113H/motorSpec.dds"/>
     <File fileId="26" filename="../textures/113H/painel2.dds"/>
-    <File fileId="132" filename="../textures/113H/parachoq.dds"/>
+    <File fileId="130" filename="../textures/113H/parachoq.dds"/>
     <File fileId="16" filename="../textures/113H/paralamasFSpec.dds"/>
     <File fileId="9" filename="../textures/113H/paralamsTocoSpec.dds"/>
     <File fileId="31" filename="../textures/113H/parasolSpec.dds"/>
     <File fileId="46" filename="../textures/113H/partesSpec.dds"/>
-    <File fileId="164" filename="../textures/113H/pedaisSpec.dds"/>
-    <File fileId="129" filename="../textures/113H/porta.dds"/>
+    <File fileId="162" filename="../textures/113H/pedaisSpec.dds"/>
+    <File fileId="127" filename="../textures/113H/porta.dds"/>
     <File fileId="55" filename="../textures/113H/pretos2Spec.dds"/>
-    <File fileId="135" filename="../textures/113H/quintarodaSpec.dds"/>
+    <File fileId="133" filename="../textures/113H/quintarodaSpec.dds"/>
     <File fileId="59" filename="../textures/113H/radiadorSpec.dds"/>
     <File fileId="51" filename="../textures/113H/restrovisorSpec.dds"/>
     <File fileId="28" filename="../textures/113H/saiaSpec.dds"/>
     <File fileId="19" filename="../textures/113H/suportesparalamaSpec.dds"/>
-    <File fileId="136" filename="../textures/113H/tampavidro.dds"/>
+    <File fileId="134" filename="../textures/113H/tampavidro.dds"/>
     <File fileId="23" filename="../textures/113H/tanqudeaguaSpec.dds"/>
     <File fileId="41" filename="../textures/113H/tanqueSpec.dds"/>
-    <File fileId="174" filename="../textures/113H/tapetaoSpec.dds"/>
+    <File fileId="175" filename="../textures/113H/tapetaoSpec.dds"/>
     <File fileId="52" filename="../textures/113H/vidroSpec.dds"/>
     <File fileId="48" filename="../textures/113H/vidros.dds"/>
-    <File fileId="163" filename="../textures/113H/volante.dds"/>
-    <File fileId="162" filename="../textures/BasculanteRandon/CaixaSepc.dds"/>
-    <File fileId="112" filename="../textures/BasculanteRandon/Randon_1.dds"/>
-    <File fileId="113" filename="../textures/BasculanteRandon/Randon_1Spec.dds"/>
-    <File fileId="77" filename="../textures/Coronas/doll1.dds"/>
-    <File fileId="89" filename="../textures/DefaultMaterial_BaseColor1.dds"/>
+    <File fileId="161" filename="../textures/113H/volante.dds"/>
+    <File fileId="160" filename="../textures/BasculanteRandon/CaixaSepc.dds"/>
+    <File fileId="111" filename="../textures/BasculanteRandon/Randon_1.dds"/>
+    <File fileId="112" filename="../textures/BasculanteRandon/Randon_1Spec.dds"/>
+    <File fileId="110" filename="../textures/BullbarDaf/Witcreme.png"/>
+    <File fileId="76" filename="../textures/Coronas/doll1.dds"/>
+    <File fileId="88" filename="../textures/DefaultMaterial_BaseColor1.dds"/>
+    <File fileId="146" filename="../textures/HeaderLightGlass/clearPlastic_diffuse.png"/>
+    <File fileId="147" filename="../textures/HeaderLightGlass/vehicleShader.xml"/>
+    <File fileId="106" filename="../textures/HellaRalley3000/alpha.dds"/>
+    <File fileId="105" filename="../textures/HellaRalley3000/cubemap.dds"/>
+    <File fileId="107" filename="../textures/HellaRalley3000/glass.dds"/>
+    <File fileId="104" filename="../textures/HellaRalley3000/hella.dds"/>
+    <File fileId="82" filename="../textures/HighPipe/texture0.dds"/>
     <File fileId="40" filename="../textures/MB100.dds"/>
-    <File fileId="79" filename="../textures/Main.dds"/>
-    <File fileId="85" filename="../textures/Toplight.dds"/>
-    <File fileId="82" filename="../textures/Witcreme.png"/>
-    <File fileId="92" filename="../textures/airConnector_normal.png"/>
-    <File fileId="95" filename="../textures/connectors1_normal.png"/>
-    <File fileId="93" filename="../textures/connectors_normal.png"/>
+    <File fileId="78" filename="../textures/Main.dds"/>
+    <File fileId="158" filename="../textures/MirrorLights/chrom.dds"/>
+    <File fileId="157" filename="../textures/MirrorLights/lights.dds"/>
+    <File fileId="87" filename="../textures/Mudflaps/spatlappen.dds"/>
+    <File fileId="144" filename="../textures/RearLightSupport/Schrauben_diffuse.dds"/>
+    <File fileId="141" filename="../textures/RearLightSupport/motor.dds"/>
+    <File fileId="143" filename="../textures/RearLightSupport/shared/Specular.dds"/>
+    <File fileId="142" filename="../textures/RearLightSupport/shared/default_normal.dds"/>
+    <File fileId="145" filename="../textures/RearLightSupport/specular.dds"/>
+    <File fileId="109" filename="../textures/RockGuard/Witcreme.png"/>
+    <File fileId="174" filename="../textures/Rodas/Calota_Spec.dds" colorProfile="sRGB"/>
+    <File fileId="18" filename="../textures/Rodas/Rodoar.dds" colorProfile="sRGB"/>
+    <File fileId="169" filename="../textures/RoundedFuelTanks/gen_dirt_1.dds"/>
+    <File fileId="155" filename="../textures/ScandinavianDayLight/Arbeitscheinwerfer.dds"/>
+    <File fileId="124" filename="../textures/ScaniaLights/Toplight.dds"/>
+    <File fileId="116" filename="../textures/ScaniaLights/capalantSpec.dds"/>
+    <File fileId="32" filename="../textures/ScaniaLights/capinhafarolsSpec.dds"/>
+    <File fileId="34" filename="../textures/ScaniaLights/faroisspec.dds"/>
+    <File fileId="123" filename="../textures/ScaniaLights/specular1.dds"/>
+    <File fileId="33" filename="../textures/ScaniaLights/vidros.dds"/>
+    <File fileId="84" filename="../textures/Toplight.dds"/>
+    <File fileId="81" filename="../textures/Witcreme.png"/>
+    <File fileId="91" filename="../textures/airConnector_normal.png"/>
+    <File fileId="94" filename="../textures/connectors1_normal.png"/>
+    <File fileId="92" filename="../textures/connectors_normal.png"/>
     <File fileId="65" filename="../textures/cvet_spec_dirt3.dds"/>
-    <File fileId="75" filename="../textures/doll.dds"/>
-    <File fileId="97" filename="../textures/front02.dds"/>
-    <File fileId="94" filename="../textures/frontConnector_normal.png"/>
-    <File fileId="96" filename="../textures/kentekenNL.dds"/>
-    <File fileId="81" filename="../textures/light2.dds"/>
-    <File fileId="80" filename="../textures/lightlite2.dds"/>
-    <File fileId="91" filename="../textures/rearlights.dds"/>
-    <File fileId="66" filename="../textures/specular1.dds"/>
-    <File fileId="114" filename="../textures/upg_shared.dds"/>
+    <File fileId="114" filename="../textures/default_normal.dds"/>
+    <File fileId="74" filename="../textures/doll.dds"/>
+    <File fileId="96" filename="../textures/front02.dds"/>
+    <File fileId="93" filename="../textures/frontConnector_normal.png"/>
+    <File fileId="115" filename="../textures/gen_dirt_1_2k.dds"/>
+    <File fileId="95" filename="../textures/kentekenNL.dds"/>
+    <File fileId="80" filename="../textures/light2.dds"/>
+    <File fileId="79" filename="../textures/lightlite2.dds"/>
+    <File fileId="117" filename="../textures/rearLight10/clearPlastic_diffuse.dds"/>
+    <File fileId="90" filename="../textures/rearlights.dds"/>
+    <File fileId="172" filename="../textures/scaniaLogo.png"/>
+    <File fileId="138" filename="../textures/sideMarker05Red/sideMarker05_normal.dds"/>
+    <File fileId="139" filename="../textures/sideMarker05Red/sideMarker05_vmask.dds"/>
+    <File fileId="20" filename="../textures/specular1.dds"/>
+    <File fileId="113" filename="../textures/upg_shared.dds"/>
     <File fileId="64" filename="../textures/wood.dds"/>
   </Files>
 
 
   <Materials>
     <Material name="01 - Default" materialId="5">
-      <Texture fileId="96"/>
+      <Texture fileId="95"/>
       <Glossmap fileId="40"/>
     </Material>
     <Material name="111" materialId="6" customShaderId="4">
-      <Texture fileId="127"/>
-      <Glossmap fileId="128"/>
+      <Texture fileId="125"/>
+      <Glossmap fileId="126"/>
     </Material>
     <Material name="222" materialId="7" customShaderId="4">
-      <Texture fileId="165"/>
-      <Glossmap fileId="128"/>
+      <Texture fileId="163"/>
+      <Glossmap fileId="126"/>
     </Material>
     <Material name="333" materialId="8" customShaderId="4">
-      <Texture fileId="166"/>
-      <Glossmap fileId="128"/>
+      <Texture fileId="164"/>
+      <Glossmap fileId="126"/>
     </Material>
     <Material name="444" materialId="9" customShaderId="4">
-      <Texture fileId="167"/>
-      <Glossmap fileId="128"/>
+      <Texture fileId="165"/>
+      <Glossmap fileId="126"/>
     </Material>
     <Material name="__LightGray_" materialId="10">
-      <Texture fileId="82"/>
+      <Texture fileId="81"/>
     </Material>
     <Material name="acmat_0" materialId="11" alphaBlending="true" customShaderId="4">
-      <Texture fileId="126"/>
-      <Glossmap fileId="125"/>
+      <Texture fileId="124"/>
+      <Glossmap fileId="123"/>
     </Material>
     <Material name="acmat_0" materialId="12" alphaBlending="true" customShaderId="4">
-      <Texture fileId="85"/>
-      <Glossmap fileId="66"/>
+      <Texture fileId="84"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="acmat_0" materialId="13" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="12"/>
     </Material>
     <Material name="acmat_3" materialId="14">
-      <Texture fileId="97"/>
+      <Texture fileId="96"/>
     </Material>
     <Material name="Aerofolio_mat" materialId="15" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="142"/>
+      <Glossmap fileId="140"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="airConnector_mat" materialId="16" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="169"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="167"/>
+      <Glossmap fileId="20"/>
       <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
       <CustomParameter name="colorMat1" value="0.673 0.4704 0.022 1"/>
     </Material>
     <Material name="airConnector_mat" materialId="17" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="92"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="91"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="alpha" materialId="18">
-      <Texture fileId="107"/>
+      <Texture fileId="106"/>
     </Material>
     <Material name="antenne" materialId="19" diffuseColor="0 0 0 1" specularColor="0.00784314 1 0.00784314">
     </Material>
@@ -221,161 +220,161 @@
       <CustomParameter name="colorMat2" value="0.673 0.4704 0.022 1"/>
     </Material>
     <Material name="Cabine_mat" materialId="21" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="131"/>
+      <Glossmap fileId="129"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="Calota_mat" materialId="22" customShaderId="4" customShaderVariation="colorMask">
       <CustomParameter name="colorMat0" value="0.916 0.916 0.916 2"/>
     </Material>
     <Material name="Calota_mat" materialId="23" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="173"/>
+      <Glossmap fileId="174"/>
       <CustomParameter name="colorMat0" value="0.916 0.916 0.916 2"/>
     </Material>
     <Material name="Capa_mat" materialId="24" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="136"/>
+      <Glossmap fileId="134"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="Capo_mat" materialId="25" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="130"/>
+      <Glossmap fileId="128"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="caseIH1455_mat" materialId="26" diffuseColor="0.00784314 0.00784314 0.00784314 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="chassis:nieuw_parts1:spatlappen:acmat_1" materialId="27" specularColor="0.27451 1 0.27451">
-      <Texture fileId="88"/>
+      <Texture fileId="87"/>
     </Material>
     <Material name="chrom" materialId="28">
-      <Texture fileId="106"/>
+      <Texture fileId="105"/>
     </Material>
     <Material name="clearPlastic_mat" materialId="29" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="69"/>
-      <Normalmap fileId="155"/>
-      <Glossmap fileId="156"/>
+      <Texture fileId="68"/>
+      <Normalmap fileId="153"/>
+      <Glossmap fileId="154"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
     </Material>
     <Material name="clearPlastic_mat" materialId="30" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="69"/>
-      <Normalmap fileId="140"/>
-      <Glossmap fileId="141"/>
+      <Texture fileId="68"/>
+      <Normalmap fileId="138"/>
+      <Glossmap fileId="139"/>
       <CustomParameter name="colorMat0" value="0.5 0 0 2"/>
     </Material>
-    <Material name="clearPlastic_mat" materialId="31" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="119"/>
-      <Normalmap fileId="70"/>
-      <Glossmap fileId="71"/>
-      <CustomParameter name="colorMat0" value="1 1 1 2"/>
-      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
-      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
-    </Material>
     <Material name="clearPlastic_mat" materialId="32" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="122"/>
-      <Normalmap fileId="120"/>
-      <Glossmap fileId="121"/>
+      <Texture fileId="120"/>
+      <Normalmap fileId="118"/>
+      <Glossmap fileId="119"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="clearPlastic_mat" materialId="33" alphaBlending="true" customShaderId="4">
-      <Texture fileId="122"/>
-      <Normalmap fileId="73"/>
-      <Glossmap fileId="74"/>
+      <Texture fileId="120"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
     </Material>
-    <Material name="clearPlastic_mat2" materialId="34" alphaBlending="true" customShaderId="149" customShaderVariation="staticLight">
-      <Texture fileId="148"/>
+    <Material name="clearPlastic_mat" materialId="31" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
+      <Texture fileId="117"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
+      <CustomParameter name="colorMat0" value="1 1 1 2"/>
+      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+    </Material>
+    <Material name="clearPlastic_mat2" materialId="34" alphaBlending="true" customShaderId="147" customShaderVariation="staticLight">
+      <Texture fileId="146"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="clearPlastic_mat2" materialId="35" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="119"/>
-      <Normalmap fileId="123"/>
-      <Glossmap fileId="124"/>
+      <Texture fileId="117"/>
+      <Normalmap fileId="121"/>
+      <Glossmap fileId="122"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="clearPlastic_mat3" materialId="36" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="69"/>
-      <Normalmap fileId="70"/>
-      <Glossmap fileId="71"/>
+      <Texture fileId="68"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
       <CustomParameter name="colorMat0" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat1" value="0.5 0 0 2"/>
     </Material>
     <Material name="connectors1_mat" materialId="37" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="95"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="94"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="connectors_mat" materialId="38" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="168"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="166"/>
+      <Glossmap fileId="20"/>
       <CustomParameter name="RDT" value="0 0 20 20"/>
       <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
       <CustomParameter name="colorMat1" value="0.5356 0.0254 0.0254 8"/>
       <CustomParameter name="colorMat2" value="0.673 0.4704 0.022 1"/>
     </Material>
     <Material name="connectors_mat" materialId="39" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4">
-      <Normalmap fileId="93"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="92"/>
+      <Glossmap fileId="20"/>
       <CustomParameter name="RDT" value="0 0 20 20"/>
     </Material>
     <Material name="cubemap" materialId="40" alphaBlending="true">
-      <Texture fileId="108"/>
+      <Texture fileId="107"/>
     </Material>
     <Material name="daglamp_li1:acmat_3" materialId="41" specularColor="0.27451 1 0.27451">
-      <Texture fileId="157"/>
+      <Texture fileId="155"/>
     </Material>
     <Material name="default" materialId="42" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="158"/>
-      <Glossmap fileId="103"/>
-    </Material>
-    <Material name="default" materialId="43">
-      <Texture fileId="143"/>
-      <Normalmap fileId="144"/>
-      <Glossmap fileId="145"/>
-    </Material>
-    <Material name="default" materialId="44">
-      <Texture fileId="146"/>
-      <Normalmap fileId="144"/>
-      <Glossmap fileId="147"/>
+      <Texture fileId="156"/>
+      <Glossmap fileId="102"/>
     </Material>
     <Material name="default" materialId="45" customShaderId="4">
-      <Texture fileId="112"/>
-      <Glossmap fileId="113"/>
+      <Texture fileId="111"/>
+      <Glossmap fileId="112"/>
     </Material>
     <Material name="default" materialId="46" specularColor="1 1 0">
-      <Texture fileId="89"/>
+      <Texture fileId="88"/>
     </Material>
     <Material name="default" materialId="47" specularColor="1 1 1">
-      <Texture fileId="81"/>
+      <Texture fileId="80"/>
     </Material>
     <Material name="default" materialId="48" specularColor="0 1 1" alphaBlending="true">
-      <Texture fileId="80"/>
-      <Emissivemap fileId="80"/>
+      <Texture fileId="79"/>
+      <Emissivemap fileId="79"/>
     </Material>
     <Material name="default" materialId="49">
-      <Texture fileId="79"/>
+      <Texture fileId="78"/>
       <Glossmap fileId="65"/>
     </Material>
     <Material name="default" materialId="50" customShaderId="4">
-      <Texture fileId="91"/>
-      <Glossmap fileId="66"/>
+      <Texture fileId="90"/>
+      <Glossmap fileId="20"/>
+    </Material>
+    <Material name="default" materialId="43">
+      <Texture fileId="141"/>
+      <Normalmap fileId="142"/>
+      <Glossmap fileId="143"/>
+    </Material>
+    <Material name="default" materialId="44">
+      <Texture fileId="144"/>
+      <Normalmap fileId="142"/>
+      <Glossmap fileId="145"/>
     </Material>
     <Material name="default" materialId="51">
       <Texture fileId="64"/>
       <Glossmap fileId="65"/>
     </Material>
     <Material name="default" materialId="52" diffuseColor="0 0 0 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="default" materialId="53" diffuseColor="0.00784314 0.00784314 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="125"/>
+      <Glossmap fileId="123"/>
     </Material>
     <Material name="default" materialId="54" diffuseColor="0.00784314 0.00784314 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="default" materialId="55" diffuseColor="0.00784314 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="default" materialId="56" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="10"/>
@@ -384,87 +383,94 @@
       <Glossmap fileId="44"/>
     </Material>
     <Material name="default" materialId="58" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="164"/>
-    </Material>
-    <Material name="default" materialId="59" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="162"/>
     </Material>
-    <Material name="Defletor_mat" materialId="60" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="139"/>
-      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
+    <Material name="default" materialId="59" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
+      <Glossmap fileId="160"/>
     </Material>
-    <Material name="Escada_mat" materialId="61" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
+    <Material name="default" materialId="1448" diffuseColor="1 1 1 1" specularColor="1 1 0.521569">
+    </Material>
+    <Material name="Defletor_mat" materialId="60" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
       <Glossmap fileId="137"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
+    <Material name="Escada_mat" materialId="61" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
+      <Glossmap fileId="135"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
+    </Material>
     <Material name="file5Material" materialId="62">
-      <Texture fileId="87"/>
-      <Glossmap fileId="66"/>
+      <Texture fileId="86"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="frontConnector_mat" materialId="63" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="94"/>
-      <Glossmap fileId="66"/>
+      <Normalmap fileId="93"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="frontLightRectangle_02_mat" materialId="64" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="70"/>
-      <Glossmap fileId="71"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="frontLightRectangle_02_mat" materialId="65" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="70"/>
-      <Glossmap fileId="71"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 1 1 2"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="frontLightRectangle_02_mat" materialId="66" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="staticLight">
-      <Glossmap fileId="71"/>
+      <Glossmap fileId="70"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 1 1 2"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="gitter" materialId="67" specularColor="1 1 0">
-      <Texture fileId="111"/>
+      <Texture fileId="110"/>
     </Material>
     <Material name="hella" materialId="68" specularColor="1 1 1">
-      <Texture fileId="105"/>
+      <Texture fileId="104"/>
     </Material>
     <Material name="highline_cab_1:_vehicle_truck_scania_tex1__dif_spec_add_env__tex1_dds1" materialId="69" specularColor="0 1 1" alphaBlending="true">
-      <Texture fileId="77"/>
-      <Emissivemap fileId="75"/>
+      <Texture fileId="76"/>
+      <Emissivemap fileId="74"/>
     </Material>
     <Material name="highline_cab_1:_vehicle_truck_scania_tex1__dif_spec_add_env__tex1_dds1" materialId="70" specularColor="0.27451 1 0.27451" customShaderId="4">
-      <Texture fileId="75"/>
+      <Texture fileId="74"/>
     </Material>
     <Material name="highline_cab_2:_vehicle_truck_scania_chrom__dif_spec_add_env_nofresnel__chrom_dds1" materialId="71" specularColor="0.337255 1 0.337255">
-      <Texture fileId="160"/>
+      <Texture fileId="158"/>
+    </Material>
+    <Material name="innerCircle" materialId="1449" diffuseColor="0 0 0 1" specularColor="0.498039 1 0">
     </Material>
     <Material name="lambert1" materialId="72">
-      <Texture fileId="110"/>
+      <Texture fileId="109"/>
     </Material>
     <Material name="lambert1" materialId="73" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
     <Material name="lambert2" materialId="74" customShaderId="4" customShaderVariation="colorMask">
-      <Texture fileId="114"/>
-      <Glossmap fileId="66"/>
+      <Texture fileId="113"/>
+      <Glossmap fileId="20"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 1 1 2"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="lambert2" materialId="75" diffuseColor="0 0 0 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="115"/>
+      <Glossmap fileId="84"/>
     </Material>
     <Material name="light_grey2.001" materialId="76" diffuseColor="0.00392157 0.00392157 0.00392157 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
+    </Material>
+    <Material name="logo" materialId="1450" specularColor="0.498039 1 0">
+      <Texture fileId="172"/>
     </Material>
     <Material name="Logo_mat" materialId="77" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="138"/>
+      <Glossmap fileId="136"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="lollipop:acmat_1" materialId="78" specularColor="0.27451 1 0.27451">
-      <Texture fileId="159"/>
+      <Texture fileId="157"/>
     </Material>
     <Material name="man22sInterior_mat" materialId="79" specularColor="0 1 0.0431373">
       <Texture fileId="62"/>
@@ -476,16 +482,16 @@
       <Glossmap fileId="8"/>
     </Material>
     <Material name="Material #2160" materialId="82" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="135"/>
+      <Glossmap fileId="133"/>
     </Material>
     <Material name="Material #2161" materialId="83" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="19"/>
     </Material>
     <Material name="Material #2162" materialId="84" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="118"/>
+      <Glossmap fileId="116"/>
     </Material>
     <Material name="Material #2164" materialId="85" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="174"/>
+      <Glossmap fileId="175"/>
     </Material>
     <Material name="Material #2165" materialId="86" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="61"/>
@@ -512,7 +518,7 @@
       <Glossmap fileId="39"/>
     </Material>
     <Material name="Material #2176" materialId="94" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="172"/>
+      <Glossmap fileId="173"/>
     </Material>
     <Material name="Material #2177" materialId="95" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="46"/>
@@ -541,13 +547,13 @@
     <Material name="Material #2189" materialId="103" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="45"/>
     </Material>
-    <Material name="Material #2198" materialId="104" alphaBlending="true" customShaderId="4">
-      <Texture fileId="33"/>
-      <Glossmap fileId="34"/>
-    </Material>
     <Material name="Material #2198" materialId="105" alphaBlending="true" customShaderId="4">
       <Texture fileId="48"/>
       <Glossmap fileId="49"/>
+    </Material>
+    <Material name="Material #2198" materialId="104" alphaBlending="true" customShaderId="4">
+      <Texture fileId="33"/>
+      <Glossmap fileId="34"/>
     </Material>
     <Material name="Material #2248" materialId="106" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="25"/>
@@ -592,7 +598,7 @@
     <Material name="Material #2417" materialId="120" specularColor="0.294118 1 0.0431373">
       <Texture fileId="26"/>
     </Material>
-    <Material name="Material #2435" materialId="121" diffuseColor="0 0 0 1" specularColor="0 1 1" customShaderId="133">
+    <Material name="Material #2435" materialId="121" diffuseColor="0 0 0 1" specularColor="0 1 1" customShaderId="131">
     </Material>
     <Material name="Material #2436" materialId="122" alphaBlending="true">
       <Texture fileId="48"/>
@@ -605,7 +611,7 @@
       <Glossmap fileId="3"/>
     </Material>
     <Material name="Material #2521" materialId="125">
-      <Texture fileId="163"/>
+      <Texture fileId="161"/>
     </Material>
     <Material name="Material #2572" materialId="126" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
       <Glossmap fileId="9"/>
@@ -617,47 +623,47 @@
       <Glossmap fileId="21"/>
     </Material>
     <Material name="Material Halter" materialId="129" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="4">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
     </Material>
     <Material name="Material.002" materialId="130" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="102"/>
-      <Glossmap fileId="103"/>
+      <Normalmap fileId="101"/>
+      <Glossmap fileId="102"/>
       <CustomParameter name="colorMat0" value="0.05 0.05 0.05 17"/>
     </Material>
     <Material name="Material.003" materialId="131" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="102"/>
-      <Glossmap fileId="103"/>
+      <Normalmap fileId="101"/>
+      <Glossmap fileId="102"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="Material.005" materialId="132" alphaBlending="true" customShaderId="4" customShaderVariation="colorMask">
-      <Texture fileId="104"/>
-      <Normalmap fileId="102"/>
-      <Glossmap fileId="103"/>
+      <Texture fileId="103"/>
+      <Normalmap fileId="101"/>
+      <Glossmap fileId="102"/>
       <CustomParameter name="colorMat1" value="1 1 1 1"/>
     </Material>
     <Material name="material27" materialId="133" specularColor="1 1 1">
-      <Texture fileId="83"/>
+      <Texture fileId="82"/>
     </Material>
     <Material name="Multicores" materialId="134" diffuseColor="0.164706 0.164706 0.164706 1" customShaderId="4">
       <Glossmap fileId="29"/>
     </Material>
     <Material name="Parachoque_mat" materialId="135" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="134"/>
-      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
-    </Material>
-    <Material name="Parachoque_mat" materialId="136" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
       <Glossmap fileId="132"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
-    <Material name="pasted__mirrorsBigDecal" materialId="137" diffuseColor="0 0 0 1" specularColor="0 1 1" customShaderId="133">
+    <Material name="Parachoque_mat" materialId="136" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
+      <Glossmap fileId="130"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
+    </Material>
+    <Material name="pasted__mirrorsBigDecal" materialId="137" diffuseColor="0 0 0 1" specularColor="0 1 1" customShaderId="131">
       <Reflectionmap lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="planar" scaling="1" refractiveIndex="10" bumpScale="0.1" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
     </Material>
     <Material name="pasted__rearLightOval_01_mat1" materialId="138" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="4">
-      <Normalmap fileId="73"/>
-      <Glossmap fileId="74"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
     </Material>
     <Material name="pasted__sideMarker_08Orange_mat1" materialId="139" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="109"/>
+      <Normalmap fileId="108"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
@@ -665,50 +671,50 @@
     <Material name="plain_dds1" materialId="140" diffuseColor="0 0 0 1" specularColor="1 1 0">
     </Material>
     <Material name="Portas_mat" materialId="141" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="129"/>
+      <Glossmap fileId="127"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
     <Material name="preto" materialId="142" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="102"/>
-      <Glossmap fileId="171"/>
+      <Normalmap fileId="101"/>
+      <Glossmap fileId="169"/>
     </Material>
     <Material name="rear2ChamberLight_04_glass_mat" materialId="143" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Texture fileId="69"/>
-      <Normalmap fileId="70"/>
-      <Glossmap fileId="71"/>
+      <Texture fileId="68"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="rear5ChamberLight_02_mat" materialId="144" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="123"/>
-      <Glossmap fileId="124"/>
+      <Normalmap fileId="121"/>
+      <Glossmap fileId="122"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 1 1 2"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="rearLEDLight_01_mat" materialId="145" customShaderId="4">
-      <Texture fileId="119"/>
-      <Normalmap fileId="120"/>
-      <Glossmap fileId="121"/>
+      <Texture fileId="117"/>
+      <Normalmap fileId="118"/>
+      <Glossmap fileId="119"/>
     </Material>
     <Material name="rearLEDLight_01_mat1" materialId="146" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="120"/>
-      <Glossmap fileId="121"/>
+      <Normalmap fileId="118"/>
+      <Glossmap fileId="119"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 1 1 2"/>
       <CustomParameter name="colorMat2" value="1 1 1 2"/>
     </Material>
     <Material name="rearLightCircleRed_02_mat1" materialId="147" diffuseColor="1 1 1 1" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="67"/>
-      <Glossmap fileId="68"/>
+      <Normalmap fileId="66"/>
+      <Glossmap fileId="67"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="rearLightSquare_01_mat" materialId="148" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="73"/>
-      <Glossmap fileId="74"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
       <CustomParameter name="colorMat0" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat1" value="0.5 0 0 2"/>
     </Material>
@@ -720,30 +726,30 @@
       <Glossmap fileId="40"/>
     </Material>
     <Material name="sideMarker05_mat1" materialId="151" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="153"/>
-      <Glossmap fileId="154"/>
+      <Normalmap fileId="151"/>
+      <Glossmap fileId="152"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="sideMarker07_mat1" materialId="152" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="4" customShaderVariation="staticLight">
-      <Normalmap fileId="98"/>
-      <Glossmap fileId="99"/>
+      <Normalmap fileId="97"/>
+      <Glossmap fileId="98"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="sideMarker_04_mat" materialId="153" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="73"/>
-      <Glossmap fileId="74"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
     </Material>
     <Material name="sideMarker_04Orange_mat" materialId="154" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="73"/>
-      <Glossmap fileId="74"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
     </Material>
     <Material name="truckMat" materialId="155" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Normalmap fileId="116"/>
-      <Glossmap fileId="117"/>
+      <Normalmap fileId="114"/>
+      <Glossmap fileId="115"/>
       <CustomParameter name="colorMat0" value="1 0.1 0.2 0"/>
       <CustomParameter name="colorMat1" value="0.8 0.8 0.8 8"/>
       <CustomParameter name="colorMat2" value="0.02 0.02 0.02 5"/>
@@ -755,7 +761,7 @@
       <Glossmap fileId="20"/>
     </Material>
     <Material name="xxx" materialId="158" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="colorMask">
-      <Glossmap fileId="66"/>
+      <Glossmap fileId="20"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 4"/>
     </Material>
   </Materials>
@@ -1965,7 +1971,7 @@
           </TransformGroup>
           <TransformGroup name="cameras" translation="0 0.810313 -0.461489" nodeId="1314">
             <TransformGroup name="outdoorCameraTarget" translation="2.33488e-07 0.530701 2.08921" rotation="-24 180 0" nodeId="1315">
-              <Camera name="outdoorCamera" translation="-0.673099 2.07002 -0.28729" rotation="120.233 -48.6902 -149.523" nodeId="1316" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+              <Camera name="outdoorCamera" translation="2.81691 2.57258 -3.4885" rotation="127.693 40.2978 157.849" nodeId="1316" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
             </TransformGroup>
             <Camera name="indoorCamera" translation="0.683385 1.51165 2.05977" rotation="170.544 0.0876252 179.373" nodeId="1317" fov="65" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
             <TransformGroup name="cameraRaycastNode1" translation="0 0.469011 4.15638" nodeId="1318"/>
@@ -2093,23 +2099,31 @@
       <Shape shapeId="245" name="AxleFront" translation="0 -0.27 1.9" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="4" clipDistance="300" nodeId="1416" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
         <Shape shapeId="245" name="AxleFrontRef" nodeId="1417" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
           <TransformGroup name="FrontWheelLeftRef" translation="1.1 0 0" scale="1 0.95 0.95" nodeId="1418">
-            <TransformGroup name="FrontWheelLeft" nodeId="1419"/>
+            <TransformGroup name="FrontWheelLeft" nodeId="1419">
+              <Shape shapeId="246" name="wheelCover_frontCenter_blackL" rotation="0 180 0" nodeId="1467" materialIds="1448,1449">
+                <Shape shapeId="247" name="wheelCover_frontCenter_decal" nodeId="1468" materialIds="1450"/>
+              </Shape>
+            </TransformGroup>
           </TransformGroup>
           <TransformGroup name="FrontWheelRightRef" translation="-1.1 0 0" scale="1 0.95 0.95" nodeId="1420">
-            <TransformGroup name="FrontWheelRight" nodeId="1421"/>
+            <TransformGroup name="FrontWheelRight" nodeId="1421">
+              <Shape shapeId="246" name="wheelCover_frontCenter_blackR" nodeId="1465" materialIds="1448,1449">
+                <Shape shapeId="247" name="wheelCover_frontCenter_decal" nodeId="1466" materialIds="1450"/>
+              </Shape>
+            </TransformGroup>
           </TransformGroup>
         </Shape>
-        <Shape shapeId="246" name="FrontAxle" translation="0 -0.538042 -2.73339" nodeId="1422" materialIds="94" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+        <Shape shapeId="248" name="FrontAxle" translation="0 -0.538042 -2.73339" nodeId="1422" materialIds="94" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
       </Shape>
-      <Shape shapeId="247" name="AxleLeft" translation="0.75 -0.25 -3.15" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="2" clipDistance="300" nodeId="1423" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <Shape shapeId="247" name="TandemAxleLeft" nodeId="1424" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="249" name="AxleLeft" translation="0.75 -0.25 -3.15" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="2" clipDistance="300" nodeId="1423" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="249" name="TandemAxleLeft" nodeId="1424" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
           <TransformGroup name="RearWheelLeftFrontRef" translation="0 0 0.6" scale="1 0.95 0.95" nodeId="1425">
-            <Shape shapeId="248" name="HubCap" visibility="false" nodeId="1426" materialIds="22" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="250" name="HubCap" visibility="false" nodeId="1426" materialIds="22" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
           <TransformGroup name="RearWheelLeftBack" translation="0 0 0.6" visibility="false" nodeId="1427">
             <TransformGroup name="LiftableLeft" nodeId="1428">
               <TransformGroup name="RearWheelLeftBackRef" scale="1 0.95 0.95" nodeId="1429">
-                <Shape shapeId="248" name="HubCap" visibility="false" nodeId="1430" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="250" name="HubCap" visibility="false" nodeId="1430" materialIds="22" castsShadows="true" receiveShadows="true"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
@@ -2118,15 +2132,15 @@
           <TransformGroup name="TandemAxleLeftRef" nodeId="1433"/>
         </Shape>
       </Shape>
-      <Shape shapeId="247" name="AxleRight" translation="-0.75 -0.25 -3.15" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="2" clipDistance="300" nodeId="1434" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <Shape shapeId="247" name="TandemAxleRight" nodeId="1435" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="249" name="AxleRight" translation="-0.75 -0.25 -3.15" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="2" clipDistance="300" nodeId="1434" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="249" name="TandemAxleRight" nodeId="1435" materialIds="156" castsShadows="true" receiveShadows="true" nonRenderable="true">
           <TransformGroup name="RearWheelRightFrontRef" translation="0 0 0.6" scale="1 0.95 0.95" nodeId="1436">
-            <Shape shapeId="249" name="HubCap" visibility="false" nodeId="1437" materialIds="23" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="251" name="HubCap" visibility="false" nodeId="1437" materialIds="23" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
           <TransformGroup name="RearWheelRightBack" translation="0 0 0.6" visibility="false" nodeId="1438">
             <TransformGroup name="LiftableRight" nodeId="1439">
               <TransformGroup name="RearWheelRightBackRef" scale="1 0.95 0.95" nodeId="1440">
-                <Shape shapeId="249" name="HubCap" visibility="false" nodeId="1441" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="251" name="HubCap" visibility="false" nodeId="1441" materialIds="23" castsShadows="true" receiveShadows="true"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
@@ -2135,10 +2149,20 @@
           <TransformGroup name="TandemAxleRightRef" nodeId="1444"/>
         </Shape>
       </Shape>
-      <Shape shapeId="250" name="MudFlaps" translation="0 -0.275706 -3.145" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="100" clipDistance="300" nodeId="1445" materialIds="85" castsShadows="true" receiveShadows="true" distanceBlending="false">
-        <Shape shapeId="251" name="MudFlapName" nodeId="1446" materialIds="129" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+      <Shape shapeId="252" name="MudFlaps" translation="0 -0.275706 -3.145" dynamic="true" compound="true" collision="false" collisionMask="10494210" density="100" clipDistance="300" nodeId="1445" materialIds="85" castsShadows="true" receiveShadows="true" distanceBlending="false">
+        <Shape shapeId="253" name="MudFlapName" nodeId="1446" materialIds="129" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
       </Shape>
       <Light name="light" translation="3.77304 -0.384453 1.85148" rotation="-161.28 6.84244 -170.935" visibility="false" nodeId="1447" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" range="500"/>
+      <Shape shapeId="254" name="wheelCover_back" visibility="false" nodeId="1458" materialIds="1448,1449">
+        <Shape shapeId="255" name="wheelCover_back_decal" translation="-0.0716859 0 0" nodeId="1459" materialIds="1450"/>
+      </Shape>
+      <Shape shapeId="246" name="wheelCover_frontCenter_black" visibility="false" nodeId="1460" materialIds="1448,1449">
+        <Shape shapeId="247" name="wheelCover_frontCenter_decal" nodeId="1464" materialIds="1450"/>
+      </Shape>
+      <Shape shapeId="256" name="wheelCover_frontCenter_chrome" visibility="false" nodeId="1461" materialIds="1448,1449">
+        <Shape shapeId="247" name="wheelCover_frontCenter_decal" nodeId="1462" materialIds="1450"/>
+      </Shape>
+      <Shape shapeId="257" name="wheelCover_frontCenter_open" visibility="false" nodeId="1463" materialIds="1448"/>
   </Scene>
 
   <UserAttributes>

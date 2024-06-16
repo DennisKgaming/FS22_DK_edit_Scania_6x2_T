@@ -96,6 +96,48 @@
 					<objectChange node="RearWheelRightBackRef" translationActive="0.0 -0.05 -0.04"/>
             </wheelConfiguration>
 			
+            <wheelConfiguration name="Wheelcover 1" price="4000" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.2" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="4.5" repr="FrontWheelLeftRef"  driveNode="FrontWheelLeft"  forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="50" damper="65" frictionScale="5" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="4.5" repr="FrontWheelRightRef" driveNode="FrontWheelRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="50" damper="65" frictionScale="5" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0"  restLoad="3.6" repr="RearWheelLeftFrontRef"  forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="75" damper="65" frictionScale="5" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.08" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0"  restLoad="3.6" repr="RearWheelRightFrontRef" forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="75" damper="65" frictionScale="5" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.08" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="3.6" repr="RearWheelLeftBackRef"   forcePointRatio="0.5"  initialCompression="15" suspTravel="0.08" spring="75" damper="65" frictionScale="5" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.08" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="3.6" repr="RearWheelRightBackRef"  forcePointRatio="0.5"  initialCompression="15" suspTravel="0.08" spring="75" damper="65" frictionScale="5" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.08" />
+                    </wheel>
+                </wheels>
+				
+					<objectChange node="FrontWheelLeftRef" translationActive="1.05 0.03 0" />
+					<objectChange node="FrontWheelRightRef" translationActive="-1.05 0.03 0"/>
+					<objectChange node="RearWheelLeftFrontRef" translationActive="0 0.02 0.61" />
+					<objectChange node="RearWheelRightFrontRef" translationActive="0 0.02 0.61"/>
+					<objectChange node="RearWheelLeftBackRef" scaleActive="1.0 0.95 0.95" />
+					<objectChange node="RearWheelRightBackRef" scaleActive="1.0 0.95 0.95" />
+					<objectChange node="RearWheelLeftBackRef" translationActive="0.0 -0.05 -0.04" />
+					<objectChange node="RearWheelRightBackRef" translationActive="0.0 -0.05 -0.04"/>
+					
+					<objectChange node="1>0|0|0|0" visibilityActive="true" translationActive="0.21 0.01 0"	rotationActive="18 180 0 "	scaleActive="0.6 0.96 0.96"/>
+					<objectChange node="1>0|1|0|0" visibilityActive="true" translationActive="-0.21 0.01 0" rotationActive="18 0 0 "	scaleActive="0.6 0.96 0.96"/>
+					<!-- <objectChange node="wheelRingRF" visibilityActive="true" translationActive="-0.094 0 0" 	scaleActive="0.7 0.75 0.75"/> -->
+					<!-- <objectChange node="wheelRingRB" visibilityActive="true" translationActive="-0.094 0 0" 	scaleActive="0.7 0.75 0.75"/> -->
+					
+            </wheelConfiguration>
+			
             <wheelConfiguration name="BridgeStone Eco-H" price="5900" brand="ALCOA">
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="Rodas/Rodas.xml" configId="AlcoaDIANTEIRO_BridgeStoneEcoH" isLeft="true"  hasTireTracks="true" hasParticles="true" >
@@ -739,6 +781,13 @@
         <ackermannSteeringConfigurations>
             <ackermannSteering rotSpeed="60" rotMax="50" rotCenterWheel1="3" rotCenterWheel2="4" />
         </ackermannSteeringConfigurations>
+		
+		
+        <hubs>
+            <color0 useBaseColor="true"/>
+            <color1>SHARED_GREY3</color1>
+        </hubs>
+		
     </wheels>
 
     <rimColorConfigurations useDefaultColors="true" price="300" >

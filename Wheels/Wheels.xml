@@ -10,45 +10,45 @@
 	
 		<!-- DennisK wheels -->
         <configuration id="DennisK_GY_Marathon_LHS2_Marked_SS_Front" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|0|0|0|0" nodeRight="0|0|0|0|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|2|0|0|0" nodeRight="1|2|0|1|0" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|0|0|0|0" nodeRight="0|0|0|0|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|2|0|0|0" nodeRight="1|2|0|1|0" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 	
         <configuration id="DennisK_GY_Marathon_LHS2_Marked_Front" >
             <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|0|0|1|0" nodeRight="0|0|0|1|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|2|0|0|1" nodeRight="1|2|0|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|2|0|0|1" nodeRight="1|2|0|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 		
         <configuration id="DennisK_GY_Marathon_LHS2_Marked_Drive" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|0|1|0|0" nodeRight="0|0|1|0|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|2|1|0" nodeRight="1|2|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|0|1|0|0" nodeRight="0|0|1|0|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|2|1|0" nodeRight="1|2|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 		
         <configuration id="DennisK_GY_Marathon_LHS2_Marked_Lift" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|0|1|1|0" nodeRight="0|0|1|1|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|2|1|0" nodeRight="1|2|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|0|1|1|0" nodeRight="0|0|1|1|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|2|1|0" nodeRight="1|2|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
        
 	   <!-- Trilex Wheels -->
 	   
 	   <configuration id="Trilex_Dk_MandS_Front" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|2|0|0" nodeRight="0|2|0|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|1|0|0" nodeRight="1|1|0|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|2|0|0" nodeRight="0|2|0|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|1|0|0" nodeRight="1|1|0|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 		
 		<configuration id="Trilex_Dk_MandS_Rear" >
             <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|2|1|0" nodeRight="0|2|1|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|1|1|0" nodeRight="1|1|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|1|1|0" nodeRight="1|1|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 		
 		<configuration id="TrilexBC_Dk_MandS_Front" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|4|0|0" nodeRight="0|4|0|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|1|0|0" nodeRight="1|1|0|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|4|0|0" nodeRight="0|4|0|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|1|0|0" nodeRight="1|1|0|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
 		
 		<configuration id="TrilexBC_Dk_MandS_Rear" >
-            <innerRim filename="Addons/Wheels/WheelSet.i3d" nodeLeft="0|4|1|0" nodeRight="0|4|1|1" />
-            <tire filename="Addons/Wheels/WheelSet.i3d" nodeLeft="1|1|1|0" nodeRight="1|1|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
+            <innerRim filename="Wheels/WheelSet.i3d" nodeLeft="0|4|1|0" nodeRight="0|4|1|1" />
+            <tire filename="Wheels/WheelSet.i3d" nodeLeft="1|1|1|0" nodeRight="1|1|1|1" maxDeformation="0.048" isCareWheel="false" tireTrackAtlasIndex="4" />
         </configuration>
        
        

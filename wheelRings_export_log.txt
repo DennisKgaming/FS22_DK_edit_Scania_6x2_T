@@ -1,0 +1,192 @@
+i3dio.exporter:export_blend_to_i3d:INFO: Blender version is: 3.6.1
+i3dio.exporter:export_blend_to_i3d:INFO: I3D Exporter version is: 4.2.0
+i3dio.exporter:export_blend_to_i3d:INFO: Exported using 'element_tree'
+i3dio.exporter:export_blend_to_i3d:INFO: Exporting to G:\Gaming\Mod Building\Farm Simulator 22\DennisK edits\FS22_DK_edit_Scania_6x2_T\wheelRings.i3d
+i3dio.exporter:_export_selected_objects:INFO: 'Selected Objects' export is selected'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_back] Filling out basic attributes, {name='wheelCover_back', nodeId='1'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [wheelCover_back] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [wheelCover_back] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [wheelCover_back] Filling out basic attributes, {name='wheelCover_back', nodeId='1'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [wheelCover_back] Has material 'default'
+i3dio.i3d.I3D:add_material:DEBUG: [wheelRings] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [default] Filling out basic attributes, {name='default', nodeId='1'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [default] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [default] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [default] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [wheelCover_back] Has material 'innerCircle'
+i3dio.i3d.I3D:add_material:DEBUG: [wheelRings] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [innerCircle] Filling out basic attributes, {name='innerCircle', nodeId='2'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [innerCircle] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [innerCircle] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [innerCircle] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [wheelCover_back] Subset with index [0] based on material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [wheelCover_back] Processing subset: materialId="1" numTriangles="17516" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [wheelCover_back] Has subset 'default' with '17516' triangles and materialId="1" numTriangles="17516" firstIndex="0" firstVertex="0" numIndices="52548" numVertices="13632"
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [wheelCover_back] Subset with index [1] based on material 'innerCircle'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [wheelCover_back] Previous subset exists
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [wheelCover_back] Processing subset: materialId="2" numTriangles="66" firstIndex="52548" firstVertex="13632" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [wheelCover_back] Has subset 'innerCircle' with '66' triangles and materialId="2" numTriangles="66" firstIndex="52548" firstVertex="13632" numIndices="198" numVertices="114"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [wheelCover_back] Has '2' subsets, '17582' triangles and '13746' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_back] has shape ID '1'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_back] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back_logo] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_back_logo] Filling out basic attributes, {name='wheelCover_back_logo', nodeId='2'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.001] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.001] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cylinder.001] Filling out basic attributes, {name='Cylinder.001', nodeId='2'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.001] Has material 'logo'
+i3dio.i3d.I3D:add_material:DEBUG: [wheelRings] New Material
+i3dio.node_classes.node.Material:_create_xml_element:DEBUG: [logo] Filling out basic attributes, {name='logo', nodeId='3'}
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //scaniaLogo.png
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: G:\Blender\truckWheelrings\scaniaLogo.png
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Farming Simulator 2022\data
+i3dio.node_classes.node.Material:_diffuse_from_nodes:DEBUG: [logo] Has diffuse texture 'G:\Blender\truckWheelrings\scaniaLogo.png'
+i3dio.i3d.I3D:add_file:DEBUG: [wheelRings] New File
+i3dio.utility:as_fs_relative_path:DEBUG: Original filepath: //scaniaLogo.png
+i3dio.utility:as_fs_relative_path:DEBUG: Cleaned filepath: G:\Blender\truckWheelrings\scaniaLogo.png
+i3dio.utility:as_fs_relative_path:DEBUG: FS data path: C:\Program Files (x86)\Farming Simulator 2022\data
+i3dio.node_classes.file.Image:_copy_file:INFO: [scaniaLogo.png] is not an FS builtin and will be copied
+i3dio.node_classes.file.Image:_copy_file:DEBUG: [scaniaLogo.png] will be copied using the 'MODHUB' hierarchy structure
+i3dio.node_classes.file.Image:_copy_file:INFO: [scaniaLogo.png] copied to 'G:\Gaming\Mod Building\Farm Simulator 22\DennisK edits\FS22_DK_edit_Scania_6x2_T\textures\scaniaLogo.png'
+i3dio.node_classes.file.Image:_resolve_filepath:INFO: [scaniaLogo.png] Resolved filepath: textures\scaniaLogo.png
+i3dio.node_classes.file.Image:_create_xml_element:DEBUG: [scaniaLogo.png] Filling out basic attributes, {name='textures/scaniaLogo.png', nodeId='1'}
+i3dio.node_classes.node.Material:_normal_from_nodes:DEBUG: [logo] Has no Normalmap
+i3dio.node_classes.node.Material:_emissive_from_nodes:DEBUG: [logo] Has no Emissivemap
+i3dio.node_classes.node.Material:_resolve_with_nodes:DEBUG: [logo] Has no Glossmap
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.001] Subset with index [0] based on material 'logo'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.001] Processing subset: materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.001] Has subset 'logo' with '2' triangles and materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="6" numVertices="4"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cylinder.001] Has '1' subsets, '2' triangles and '4' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_back_logo] has shape ID '2'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back_logo] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, -0.0717)
+            (0.0000, 1.0000, 0.0000,  0.0000)
+            (0.0000, 0.0000, 1.0000,  0.0000)
+            (0.0000, 0.0000, 0.0000,  1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back_logo] translation is <Vector (-0.0717, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_back_logo] has translation: [-0.0716859 0 0]
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_back_logo] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back_logo] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_back_logo] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_black] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_frontCenter_black] Filling out basic attributes, {name='wheelCover_frontCenter_black', nodeId='3'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.003] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.003] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cylinder.003] Filling out basic attributes, {name='Cylinder.003', nodeId='3'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.003] Has material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.003] Has material 'innerCircle'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.003] Subset with index [0] based on material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.003] Processing subset: materialId="1" numTriangles="1676" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.003] Has subset 'default' with '1676' triangles and materialId="1" numTriangles="1676" firstIndex="0" firstVertex="0" numIndices="5028" numVertices="3371"
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.003] Subset with index [1] based on material 'innerCircle'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.003] Previous subset exists
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.003] Processing subset: materialId="2" numTriangles="38" firstIndex="5028" firstVertex="3371" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.003] Has subset 'innerCircle' with '38' triangles and materialId="2" numTriangles="38" firstIndex="5028" firstVertex="3371" numIndices="114" numVertices="79"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cylinder.003] Has '2' subsets, '1714' triangles and '3450' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_frontCenter_black] has shape ID '3'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_black] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_black] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_black] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_frontCenter_black] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_black] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_black] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_chrome] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_frontCenter_chrome] Filling out basic attributes, {name='wheelCover_frontCenter_chrome', nodeId='4'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.004] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.004] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cylinder.004] Filling out basic attributes, {name='Cylinder.004', nodeId='4'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.004] Has material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.004] Has material 'innerCircle'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.004] Subset with index [0] based on material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.004] Processing subset: materialId="1" numTriangles="1702" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.004] Has subset 'default' with '1702' triangles and materialId="1" numTriangles="1702" firstIndex="0" firstVertex="0" numIndices="5106" numVertices="3427"
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.004] Subset with index [1] based on material 'innerCircle'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.004] Previous subset exists
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.004] Processing subset: materialId="2" numTriangles="12" firstIndex="5106" firstVertex="3427" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.004] Has subset 'innerCircle' with '12' triangles and materialId="2" numTriangles="12" firstIndex="5106" firstVertex="3427" numIndices="36" numVertices="26"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cylinder.004] Has '2' subsets, '1714' triangles and '3453' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_frontCenter_chrome] has shape ID '4'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_chrome] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_chrome] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_chrome] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_frontCenter_chrome] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_chrome] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_chrome] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_decal] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_frontCenter_decal] Filling out basic attributes, {name='wheelCover_frontCenter_decal', nodeId='5'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.002] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.002] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cylinder.002] Filling out basic attributes, {name='Cylinder.002', nodeId='5'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.002] Has material 'logo'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.002] Subset with index [0] based on material 'logo'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.002] Processing subset: materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.002] Has subset 'logo' with '2' triangles and materialId="3" numTriangles="2" firstIndex="0" firstVertex="0" numIndices="6" numVertices="6"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cylinder.002] Has '1' subsets, '2' triangles and '6' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_frontCenter_decal] has shape ID '5'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_decal] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_decal] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_decal] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_frontCenter_decal] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_decal] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_decal] no more children to process in object
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_open] is of type 'MESH'
+i3dio.node_classes.node.ShapeNode:_create_xml_element:DEBUG: [wheelCover_frontCenter_open] Filling out basic attributes, {name='wheelCover_frontCenter_open', nodeId='6'}
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.009] is exported with modifiers applied
+i3dio.node_classes.shape.EvaluatedMesh:generate_evaluated_mesh:DEBUG: [Cylinder.009] applying unit scaling
+i3dio.node_classes.node.IndexedTriangleSet:_create_xml_element:DEBUG: [Cylinder.009] Filling out basic attributes, {name='Cylinder.009', nodeId='6'}
+i3dio.node_classes.node.IndexedTriangleSet:populate_from_evaluated_mesh:INFO: [Cylinder.009] Has material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:process_subsets:DEBUG: [Cylinder.009] Subset with index [0] based on material 'default'
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.009] Processing subset: materialId="1" numTriangles="1546" firstIndex="0" firstVertex="0" numIndices="0" numVertices="0"
+i3dio.node_classes.node.IndexedTriangleSet:process_subset:DEBUG: [Cylinder.009] Has subset 'default' with '1546' triangles and materialId="1" numTriangles="1546" firstIndex="0" firstVertex="0" numIndices="4638" numVertices="3097"
+i3dio.node_classes.node.IndexedTriangleSet:populate_xml_element:DEBUG: [Cylinder.009] Has '1' subsets, '1546' triangles and '3097' vertices
+i3dio.node_classes.node.ShapeNode:populate_xml_element:DEBUG: [wheelCover_frontCenter_open] has shape ID '6'
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeObjectAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.xml_i3d:write_i3d_properties:INFO: Writing non-default properties from propertygroup: 'I3DNodeShapeAttributes'
+i3dio.xml_i3d:write_i3d_properties:INFO: Wrote '0' properties
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_open] transforming to new transform-basis with <Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)
+            (0.0000, 1.0000, 0.0000, 0.0000)
+            (0.0000, 0.0000, 1.0000, 0.0000)
+            (0.0000, 0.0000, 0.0000, 1.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_open] translation is <Vector (0.0000, 0.0000, 0.0000)>
+i3dio.node_classes.node.ShapeNode:_add_transform_to_xml_element:DEBUG: [wheelCover_frontCenter_open] translation is default
+i3dio.node_classes.node.ShapeNode:__init__:DEBUG: [wheelCover_frontCenter_open] Initialized as a 'ShapeNode'
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_open] processing objects children
+i3dio.exporter:_add_object_to_i3d:DEBUG: [wheelCover_frontCenter_open] no more children to process in object
